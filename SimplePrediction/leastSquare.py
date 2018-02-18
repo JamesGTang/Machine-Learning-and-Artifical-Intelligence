@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 
 # Parameters
 learning_rate = 0.025
-training_epochs = 1000
+training_epochs = 2000
 display_step = 50
 
 # training data
