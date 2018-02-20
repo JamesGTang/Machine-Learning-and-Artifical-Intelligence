@@ -134,6 +134,7 @@ with tf.Session() as sess:
         # zip makes iterator that aggreates elements from each of the iterables
         for (x, y) in zip(train_X, train_Y):
             # use feed_dict to feed data into the place holder
+            print(x,y)
             sess.run(optimizer, feed_dict={X: x, Y: y})
         
         # Display log every 50
